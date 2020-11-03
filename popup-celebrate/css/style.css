@@ -1,0 +1,70 @@
+@font-face {
+    font-family: miller;
+    src: url("../font/miller.otf");
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+.card {
+    display: flex;
+    position:fixed;
+    z-index:100;
+}
+
+.card-body {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 160px;
+    display: flex;
+    position: fixed;    
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: miller;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 2.2rem;
+    line-height: 2.64rem;
+    color: black;
+
+}
+
+.btn-dangers {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 3px;
+    padding: 8px 12px 8px 16px;
+    border-radius: 3px;
+    background: #739973;
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'miller', sans-serif;
+    font-weight: 500;
+    width: 130px;
+    height: 43px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.circulo-verde {
+    color:#739973;
+}
+.far {
+    font-size: 1.5rem;
+    display: flex;
+    color: black;
+    margin-top: -100px;
+}
+
